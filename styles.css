@@ -1,0 +1,157 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px ;
+    
+    
+}
+
+.h4{
+   background-color: fuchsia;
+   text-align: center;
+   text-decoration-color: orange;
+   position: fixed;
+}
+
+*{
+    margin: 0px;
+    padding: 0x;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navegador{
+    display: flex;
+    height: 70px;
+    background-color: rgb(44, 40, 40);   
+    justify-content: space-between;
+}
+
+header nav{
+    flex-grow: 0.4;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li {
+    border-radius: 5px;
+    box-shadow: rgba(0, 68, 255, 0.514);
+    padding: 5px;
+}
+
+header nav ul li:hover{
+    background-color: rgb(9, 255, 0);
+}
+
+.sombreadolista1{
+    box-shadow: 0 0 20px rgb(140, 0, 255);
+    height: 40px;
+    padding: 5px 5px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+}
+
+.sombreadolista2{
+    box-shadow: 0 0 20px rgb(140, 0, 255);
+    height: 40px;
+    padding: 5px 5px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+}
+
+.sombreadolista3{
+    box-shadow: 0 0 20px rgb(140, 0, 255);
+    height: 40px;
+    padding: 5px 5px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+}
+
+a{
+    color: rgb(255, 0, 191);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.logo img{
+    height: 100px;
+
+}
+
+.centrarlo-ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 0, 191);
+    top: 0;
+    left: 0;
+}
+.ctn-header{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    position: relative;
+}
+
+.lbl-header{
+    font-family: cursive;
+
+    font-size: 20px;
+}
+
+
+    
+.ctn-data{
+
+    width: 90%;
+    margin: auto;
+    padding: 10px
+}
+
+.p-data{
+    font-family: arial;
+    font-size: 18px;
+    position: relative;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.925);
+}
+.ctn-lbl-comentar{
+    width: 100%;
+    text-align:center;
+}
+.lbl-comentar{
+    font-family: cursive;
+    font-size: 20px;
+    text-shadow: 4px 8px 4px;color: rgb(255, 0, 191);
+}
+
+.p-edit{
+    font-size: 14px;
+    color: white;
+    font-family: Arial, Sans-serif
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+div.redes{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
